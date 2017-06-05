@@ -31,13 +31,13 @@ namespace ConsoleApplication10
                 double S = Math.PI * r * r;
                 Console.WriteLine(Math.Round (S, 3));
             }
-            if (figureType == "triangle")
-            {
-                double a = double.Parse(Console.ReadLine());
-                double h = double.Parse(Console.ReadLine());
-                double S = a * h / 2;
-                Console.WriteLine(Math.Round(S, 3));
-            }
+            //if (figureType == "triangle")
+            //{
+            //    double a = double.Parse(Console.ReadLine());
+            //    double h = double.Parse(Console.ReadLine());
+            //    double S = a * h / 2;
+            //    Console.WriteLine(Math.Round(S, 3));
+            //}
 
 
         }
